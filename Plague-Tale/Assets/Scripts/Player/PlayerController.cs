@@ -27,17 +27,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Aqui n foi");
+        //Debug.Log("Aqui n foi");
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        Debug.Log("Aqui foi");
+        //Debug.Log("Aqui foi");
         float shootHor = Input.GetAxis("Fire1");
         if((shootHor != 0) && Time.time > lastFire + fireDelay)
         {
             Shoot(shootHor);
             lastFire = Time.time;
         }
-        Debug.Log("N foi");
+        //Debug.Log("N foi");
         rigidbody1.velocity = new Vector3(horizontal * speed, vertical * speed, 0);
     }
 

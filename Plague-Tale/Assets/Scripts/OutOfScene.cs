@@ -15,7 +15,7 @@ public class OutOfScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    RaycastHit2D Hit = Physics2D.Raycast(point.position, new Vector2(0, -5), 10, mask);
+    RaycastHit2D Hit = Physics2D.Raycast(point.position, new Vector2(0, -6), 20, mask);
      if(Hit && Hit.transform.GetComponent<Enemies>().check == false)
      {
       Hit.transform.GetComponent<Enemies>().Dirconfig();
