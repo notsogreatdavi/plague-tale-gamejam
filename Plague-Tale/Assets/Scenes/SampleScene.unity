@@ -520,7 +520,7 @@ MonoBehaviour:
   speed: 5
   bulletPrefab: {fileID: 3934818435514439075, guid: b022daf4049e4a84ba3c966e817c964c,
     type: 3}
-  bulletSpeed: 5
+  bulletSpeed: 7
   fireDelay: 1
   dir: 1
 --- !u!212 &1058583367
