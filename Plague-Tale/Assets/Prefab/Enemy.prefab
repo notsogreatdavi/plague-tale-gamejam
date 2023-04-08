@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1020023305433909321}
   - component: {fileID: 8775842291070215875}
   - component: {fileID: 886717654082080898}
+  - component: {fileID: 6471643636131199504}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -97,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff7cfeaeffa704f4fbc23ec4ad0f71db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 3
   dir: 1
   check: 0
   timer: 2
@@ -137,3 +140,23 @@ CapsuleCollider2D:
   m_Offset: {x: 0.012801647, y: 0}
   m_Size: {x: 0.903883, y: 0.903883}
   m_Direction: 0
+--- !u!114 &6471643636131199504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808813900881756413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad8d21f40496565f8dbdf31b37b0c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  currentXp: 0
+  requiredXp: 0
+  frontXpBar: {fileID: 0}
+  backXpBar: {fileID: 0}
+  additionMultiplier: 300
+  powerMultiplier: 2
+  divisionMultiplier: 7

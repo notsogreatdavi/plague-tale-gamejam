@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemies : MonoBehaviour
 {
+    
+    LevelSystem teste;
     [SerializeField] float health, maxHealth = 3f;
 
     Rigidbody2D Rb;
@@ -13,6 +15,7 @@ public class Enemies : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        teste = GameObject.FindGameObjectsWithTag("Player").getcomponent<LevelSystem>();
         Rb = GetComponent<Rigidbody2D>();
         health = maxHealth;
     }
@@ -22,6 +25,7 @@ public class Enemies : MonoBehaviour
         health -= damageAmount;
         if (health <= 0)
         {
+            teste.GainExperienceFlatRate(70);
             Destroy(gameObject);
         }
     }

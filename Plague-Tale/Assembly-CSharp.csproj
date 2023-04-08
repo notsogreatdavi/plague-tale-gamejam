@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Enemy\Enemies.cs" />
+     <Compile Include="Assets\Scripts\LevelSystem.cs" />
      <Compile Include="Assets\Scripts\OutOfScene.cs" />
      <Compile Include="Assets\Scripts\Player\BulletControl.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
@@ -649,11 +650,20 @@
  <Reference Include="Unity.2D.Animation.Editor">
  <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Sysroot.Linux_x86_64">
+ <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Toolchain.Linux-x86_64">
+ <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.SysrootPackage.Editor">
+ <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -669,15 +679,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Sysroot.Linux_x86_64">
- <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Toolchain.Linux-x86_64">
- <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
- </Reference>
- <Reference Include="Unity.SysrootPackage.Editor">
- <HintPath>/home/notsogreatdavi/plague-tale-gamejam/Plague-Tale/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
