@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemies : MonoBehaviour
 {
+    [SerializeField] float health, maxHealth = 3f;
+
     Rigidbody2D Rb;
     public int dir = 1;
     public bool check = false;
@@ -12,6 +14,16 @@ public class Enemies : MonoBehaviour
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
+        health = maxHealth;
+    }
+
+    public void TakeDamage(float damageAmount)
+    {
+        health -= damageAmount;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
