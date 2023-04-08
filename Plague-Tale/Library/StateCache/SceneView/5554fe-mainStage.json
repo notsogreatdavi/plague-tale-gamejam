@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":204.79904174804688,"y":221.57168579101563,"z":-44.68434524536133},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":108.67619323730469,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":5.5573530197143559,"y":-0.2882159948348999,"z":3.2327723503112795},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":7.873452186584473,"orthographic":true}
+>>>>>>> origin/Leandro
