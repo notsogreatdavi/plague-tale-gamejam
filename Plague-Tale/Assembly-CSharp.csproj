@@ -41,6 +41,11 @@
      <Compile Include="Assets\Scripts\Player\BulletControl.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\UI\Background\BackgroundScroll.cs" />
+     <Compile Include="Assets\UpgradeSystem\Buff System\BuffSpawner.cs" />
+     <Compile Include="Assets\UpgradeSystem\Buff System\Buffstype.cs" />
+     <Compile Include="Assets\UpgradeSystem\RoundController\RoundPattern.cs" />
+     <Compile Include="Assets\UpgradeSystem\RoundController\SpawnEnemy.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\2019.4.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
